@@ -1,0 +1,44 @@
+{
+  "ladder": [
+    {
+      "name": "base",
+      "width": 1440,
+      "height": 2560,
+      "codec": "h264",
+      "bitrate": 9000000,
+      "scale_filter": "lanczos"
+    },
+    {
+      "name": "1080",
+      "width": 1080,
+      "height": 1920,
+      "codec": "h264",
+      "bitrate": 4500000,
+      "scale_filter": "lanczos"
+    },
+    {
+      "name": "720",
+      "width": 720,
+      "height": 1280,
+      "codec": "h264",
+      "bitrate": 2500000,
+      "scale_filter": "lanczos"
+    },
+    {
+      "name": "576",
+      "width": 576,
+      "height": 1024,
+      "codec": "h264",
+      "bitrate": 1500000,
+      "scale_filter": "lanczos"
+    }
+  ],
+  "options": {
+    "preset": "slow",
+    "crf": 20,
+    "preserve_audio": false,
+    "hdr": false,
+    "size_inches": 14,
+    "viewing_distance": 24
+  }
+}
